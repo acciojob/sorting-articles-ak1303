@@ -7,7 +7,7 @@ bands.sort((str1,str2)=>{
 });
 
 bands.map(value=>{
-	let parent=document.querySelector(".list");
+	let parent=document.querySelector("#bands");
 	let box = document.createElement("li");
 	box.innerHTML = `<h4>${value}</h4>`;
 	parent.appendChild(box);
